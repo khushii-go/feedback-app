@@ -1,0 +1,246 @@
+2025-08-04 17:04:46,908 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-08-04 17:04:46,909 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:04:46,909 INFO:  * Restarting with stat
+2025-08-04 17:04:47,115 WARNING:  * Debugger is active!
+2025-08-04 17:04:47,124 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:06:31,874 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:06:31,918 INFO:  * Restarting with stat
+2025-08-04 17:06:32,151 WARNING:  * Debugger is active!
+2025-08-04 17:06:32,158 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:07:27,560 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:07:27,611 INFO:  * Restarting with stat
+2025-08-04 17:07:27,844 WARNING:  * Debugger is active!
+2025-08-04 17:07:27,853 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:07:36,509 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5600
+2025-08-04 17:07:36,509 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:07:36,510 INFO:  * Restarting with stat
+2025-08-04 17:07:36,713 WARNING:  * Debugger is active!
+2025-08-04 17:07:36,721 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:08:43,759 INFO: 127.0.0.1 - - [04/Aug/2025 17:08:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-04 17:08:43,828 INFO: 127.0.0.1 - - [04/Aug/2025 17:08:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-04 17:08:43,829 INFO: 127.0.0.1 - - [04/Aug/2025 17:08:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-04 17:08:43,896 INFO: 127.0.0.1 - - [04/Aug/2025 17:08:43] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=a0kBML6uWmhb617D3CIl HTTP/1.1" 200 -
+2025-08-04 17:08:44,068 INFO: 127.0.0.1 - - [04/Aug/2025 17:08:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-04 17:09:28,538 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:09:28,584 INFO:  * Restarting with stat
+2025-08-04 17:09:28,733 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:09:28,792 INFO:  * Restarting with stat
+2025-08-04 17:09:28,966 WARNING:  * Debugger is active!
+2025-08-04 17:09:28,973 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:09:29,029 WARNING:  * Debugger is active!
+2025-08-04 17:09:29,036 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:10:35,433 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:10:35,475 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:10:35,478 INFO:  * Restarting with stat
+2025-08-04 17:10:35,518 INFO:  * Restarting with stat
+2025-08-04 17:11:49,157 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-08-04 17:11:49,157 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:11:49,158 INFO:  * Restarting with stat
+2025-08-04 17:11:49,454 WARNING:  * Debugger is active!
+2025-08-04 17:11:49,464 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:11:56,819 INFO: 127.0.0.1 - - [04/Aug/2025 17:11:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-04 17:11:56,844 INFO: 127.0.0.1 - - [04/Aug/2025 17:11:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-04 17:11:56,847 INFO: 127.0.0.1 - - [04/Aug/2025 17:11:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-04 17:11:56,859 INFO: 127.0.0.1 - - [04/Aug/2025 17:11:56] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1" 200 -
+2025-08-04 17:11:56,880 INFO: 127.0.0.1 - - [04/Aug/2025 17:11:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-04 17:15:06,808 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:15:06,853 INFO:  * Restarting with stat
+2025-08-04 17:15:07,243 WARNING:  * Debugger is active!
+2025-08-04 17:15:07,253 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:15:14,474 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:14] "GET / HTTP/1.1" 200 -
+2025-08-04 17:15:14,492 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 17:15:21,508 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:15:21,517 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:21] "GET / HTTP/1.1" 200 -
+2025-08-04 17:15:24,894 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:15:24,902 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:24] "GET / HTTP/1.1" 200 -
+2025-08-04 17:15:44,047 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:44] "GET / HTTP/1.1" 200 -
+2025-08-04 17:15:44,059 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-04 17:15:44,059 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-04 17:15:44,060 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-04 17:15:44,063 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1[0m" 304 -
+2025-08-04 17:15:51,061 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:51] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:15:51,068 INFO: 127.0.0.1 - - [04/Aug/2025 17:15:51] "GET / HTTP/1.1" 200 -
+2025-08-04 17:16:05,678 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:16:05,734 INFO:  * Restarting with stat
+2025-08-04 17:16:05,967 WARNING:  * Debugger is active!
+2025-08-04 17:16:05,975 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:16:14,774 INFO: 127.0.0.1 - - [04/Aug/2025 17:16:14] "GET / HTTP/1.1" 200 -
+2025-08-04 17:16:18,124 INFO: 127.0.0.1 - - [04/Aug/2025 17:16:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:16:18,132 INFO: 127.0.0.1 - - [04/Aug/2025 17:16:18] "GET / HTTP/1.1" 200 -
+2025-08-04 17:17:56,748 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:17:56,797 INFO:  * Restarting with stat
+2025-08-04 17:19:22,941 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-08-04 17:19:22,942 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:19:22,943 INFO:  * Restarting with stat
+2025-08-04 17:19:23,150 WARNING:  * Debugger is active!
+2025-08-04 17:19:23,159 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:19:52,308 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "GET / HTTP/1.1" 200 -
+2025-08-04 17:19:52,317 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-04 17:19:52,322 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-04 17:19:52,323 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1[0m" 304 -
+2025-08-04 17:19:52,325 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-04 17:19:52,329 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-08-04 17:19:52,332 INFO: 127.0.0.1 - - [04/Aug/2025 17:19:52] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-08-04 17:20:09,134 INFO: Feedback received from 127.0.0.1 | Name: khushi | Feedback: heyyyy
+2025-08-04 17:20:09,134 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:20:09,142 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:09] "GET / HTTP/1.1" 200 -
+2025-08-04 17:20:19,413 INFO: Feedback received from 127.0.0.1 | Name: Khushi\ | Feedback: jdckjdz
+2025-08-04 17:20:19,414 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:20:19,421 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:19] "GET / HTTP/1.1" 200 -
+2025-08-04 17:20:28,193 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:28] "GET / HTTP/1.1" 200 -
+2025-08-04 17:20:29,037 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:29] "GET / HTTP/1.1" 200 -
+2025-08-04 17:20:52,152 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:52] "GET / HTTP/1.1" 200 -
+2025-08-04 17:20:52,158 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-04 17:20:52,160 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1[0m" 304 -
+2025-08-04 17:20:52,164 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-04 17:20:52,165 INFO: 127.0.0.1 - - [04/Aug/2025 17:20:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-04 17:21:03,610 INFO: Feedback received from 127.0.0.1 | Name: khushi | Feedback: hello
+2025-08-04 17:21:03,610 INFO: 127.0.0.1 - - [04/Aug/2025 17:21:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:21:03,617 INFO: 127.0.0.1 - - [04/Aug/2025 17:21:03] "GET / HTTP/1.1" 200 -
+2025-08-04 17:22:09,191 INFO: 127.0.0.1 - - [04/Aug/2025 17:22:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:22:09,198 INFO: 127.0.0.1 - - [04/Aug/2025 17:22:09] "GET / HTTP/1.1" 200 -
+2025-08-04 17:22:37,059 INFO: 127.0.0.1 - - [04/Aug/2025 17:22:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:22:37,066 INFO: 127.0.0.1 - - [04/Aug/2025 17:22:37] "GET / HTTP/1.1" 200 -
+2025-08-04 17:23:11,143 INFO: Feedback received from 127.0.0.1 | Name: hellooo | Feedback: hey
+2025-08-04 17:23:11,144 INFO: 127.0.0.1 - - [04/Aug/2025 17:23:11] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:23:11,152 INFO: 127.0.0.1 - - [04/Aug/2025 17:23:11] "GET / HTTP/1.1" 200 -
+2025-08-04 17:24:19,729 INFO: Feedback received from 127.0.0.1 | Name: khushi | Feedback: hey there good to see you.
+2025-08-04 17:24:19,730 INFO: 127.0.0.1 - - [04/Aug/2025 17:24:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:24:19,737 INFO: 127.0.0.1 - - [04/Aug/2025 17:24:19] "GET / HTTP/1.1" 200 -
+2025-08-04 17:25:15,784 ERROR: 127.0.0.1 - - [04/Aug/2025 17:25:15] code 400, message Bad request version ('õ^&:½ÅOëGá»\xadÆÊ¶sz~æ\x82\x05Ä\x9b\x00åÉOÞ\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:25:15,784 INFO: 127.0.0.1 - - [04/Aug/2025 17:25:15] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03hFÑ\x1b¿lIt\\\x0e\x93é\x9eH\x18&E"\x19\x7f5\x10w\x98\x86ç2®\x9a­eß \x98As\x0bõ^&:½ÅOëGá»­ÆÊ¶sz~æ\x82\x05Ä\x9b\x00åÉOÞ\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:25:15,794 ERROR: 127.0.0.1 - - [04/Aug/2025 17:25:15] code 400, message Bad request version ('ìÔîi\x00,ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:25:15,794 INFO: 127.0.0.1 - - [04/Aug/2025 17:25:15] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Í\x11\x9aÿ\x11Ê7*øu"ý/"ÌK\x1a¦¶\x8fìó½÷\x16ìx\x988\x90e¬ \x87ÅÔé\x1dâêt\x7fÞ³EÑOBÇ4·\x09>\x92òè¹õ³¥\x0dìÔîi\x00,ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:25:15,796 ERROR: 127.0.0.1 - - [04/Aug/2025 17:25:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01"qÚ\x0e¼Û')
+2025-08-04 17:25:15,796 INFO: 127.0.0.1 - - [04/Aug/2025 17:25:15] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01"qÚ\x0e¼Û\x0bG¨»~1\x8fã\x80tì+l;Y3AJR\x07É\x83Ã\x90j´\x00\x00\x14À[0m" 400 -
+2025-08-04 17:26:16,566 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:16] "GET / HTTP/1.1" 200 -
+2025-08-04 17:26:16,572 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-04 17:26:16,575 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1[0m" 304 -
+2025-08-04 17:26:16,580 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-04 17:26:16,581 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-04 17:26:27,428 INFO: Feedback received from 127.0.0.1 | Name: khushi | Feedback: hello
+2025-08-04 17:26:27,429 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:26:27,436 INFO: 127.0.0.1 - - [04/Aug/2025 17:26:27] "GET / HTTP/1.1" 200 -
+2025-08-04 17:28:59,264 INFO: 127.0.0.1 - - [04/Aug/2025 17:28:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-04 17:28:59,273 INFO: 127.0.0.1 - - [04/Aug/2025 17:28:59] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-04 17:28:59,273 INFO: 127.0.0.1 - - [04/Aug/2025 17:28:59] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-04 17:28:59,279 INFO: 127.0.0.1 - - [04/Aug/2025 17:28:59] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=n6MU2hQB8S5nEnluDsW3 HTTP/1.1" 200 -
+2025-08-04 17:30:35,865 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:30:35,920 INFO:  * Restarting with stat
+2025-08-04 17:30:36,146 WARNING:  * Debugger is active!
+2025-08-04 17:30:36,153 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:30:42,718 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9090
+2025-08-04 17:30:42,718 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:30:42,719 INFO:  * Restarting with stat
+2025-08-04 17:30:42,923 WARNING:  * Debugger is active!
+2025-08-04 17:30:42,931 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:30:49,377 INFO: 127.0.0.1 - - [04/Aug/2025 17:30:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-04 17:30:49,404 INFO: 127.0.0.1 - - [04/Aug/2025 17:30:49] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-04 17:30:49,405 INFO: 127.0.0.1 - - [04/Aug/2025 17:30:49] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-04 17:30:49,412 INFO: 127.0.0.1 - - [04/Aug/2025 17:30:49] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3tMP1SPS86UAbZzjBVFv HTTP/1.1" 200 -
+2025-08-04 17:30:49,438 INFO: 127.0.0.1 - - [04/Aug/2025 17:30:49] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-04 17:35:21,803 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:35:21,859 INFO:  * Restarting with stat
+2025-08-04 17:35:22,046 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:35:22,078 WARNING:  * Debugger is active!
+2025-08-04 17:35:22,087 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:35:22,117 INFO:  * Restarting with stat
+2025-08-04 17:35:22,354 WARNING:  * Debugger is active!
+2025-08-04 17:35:22,361 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:35:26,686 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+2025-08-04 17:35:26,686 INFO: [33mPress CTRL+C to quit[0m
+2025-08-04 17:35:26,687 INFO:  * Restarting with stat
+2025-08-04 17:35:26,892 WARNING:  * Debugger is active!
+2025-08-04 17:35:26,900 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:35:32,228 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:32] "GET / HTTP/1.1" 200 -
+2025-08-04 17:35:32,254 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 17:35:38,660 INFO: Feedback received from 127.0.0.1 | Name: khushi | Feedback: hello
+2025-08-04 17:35:38,661 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:35:38,670 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:38] "GET / HTTP/1.1" 200 -
+2025-08-04 17:35:57,048 ERROR: 127.0.0.1 - - [04/Aug/2025 17:35:57] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03X[º\x90b\x18Ài\x929È\x01\x13ÁÇS¬')
+2025-08-04 17:35:57,048 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:57] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03X[º\x90b\x18Ài\x929È\x01\x13ÁÇS¬[0m" 400 -
+2025-08-04 17:35:57,051 ERROR: 127.0.0.1 - - [04/Aug/2025 17:35:57] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03×CÓû0¢\x03Rx@3nV¼\x1apLN©çk\x0e\x88<po\x923$;&g')
+2025-08-04 17:35:57,051 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:57] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03×CÓû0¢\x03Rx@3nV¼\x1apLN©çk\x0e\x88<po\x923$;&g Ae[Xyz¥{¯|çl\x94ö\x82@¸q[²9<"ß\x9dÆû\x16(\x97\x93b\x00,\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:35:57,053 ERROR: 127.0.0.1 - - [04/Aug/2025 17:35:57] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01&\x14âÍ')
+2025-08-04 17:35:57,053 INFO: 127.0.0.1 - - [04/Aug/2025 17:35:57] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01&\x14âÍ Äe[0m" 400 -
+2025-08-04 17:37:49,750 INFO: 127.0.0.1 - - [04/Aug/2025 17:37:49] "GET / HTTP/1.1" 200 -
+2025-08-04 17:38:00,802 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:00] code 400, message Bad request version ('Ô\x90\x17Ü\x0e\x000á+k\x03\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:00,802 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:00] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03V\x1b\x1afßÖ\x06ï\x0f¸\x9d \x15ÎÉXB732yX\x09º²&vlX¸Á} -&ïÄt\x17Ø/·\x07ofð§Ì¿4\x83¿Z\x1dÔ\x90\x17Ü\x0e\x000á+k\x03\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:00,805 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03=z\x13\x83°UÙ\x81§HAr\x05ÞrXë(S¬>\x8eÒ~')
+2025-08-04 17:38:00,805 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:00] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03=z\x13\x83°UÙ\x81§HAr\x05ÞrXë(S¬>\x8eÒ~\x1dn\x96[0m" 400 -
+2025-08-04 17:38:00,808 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01\x15\x16Ý@1ë¦É\x8d~o®åûM\x9dP\x9cØ\x90¯ÈÖ')
+2025-08-04 17:38:00,808 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:00] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01\x15\x16Ý@1ë¦É\x8d~o®åûM\x9dP\x9cØ\x90¯ÈÖ\x85ü\x8bÁ»\x1ai\x8aÂ\x00\x00\x14À[0m" 400 -
+2025-08-04 17:38:22,672 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad request version ('ñý\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:22,673 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9bàÍbã\x95.%Ñw\x91ù¤È\x84ÇS\x97Ï)}_AÅ+\x14lØ_8Þ\x1e \x12e·H\x13úÊó¦®7AÍ8ã¦¡oáùÉ#Ì\x17\x1dÐ\x18¶*\x1cñý\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:22,680 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad request version ('=ÿ°¼5n;ý\x00,jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:22,681 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x96Û\x9c¹\x00\x18\x91u)­\x99\x9c\x1a\x92¡Z|%×\x13ãke\x9f\x98\x85mm\x082u7 ãe¼\x10OÛ\x0dÊØIØ°¬E::\x07Ë\x12Åt\x04n\x1c=ÿ°¼5n;ý\x00,jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:22,684 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad request version ('\x18ô°©y\x00\x00\x14À')
+2025-08-04 17:38:22,684 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01aÐ©¡¬þ\x96SZÀ:$ñÅ´ºýw5\x98|'(\x0c\x06R\x0b\x18ô°©y\x00\x00\x14À[0m" 400 -
+2025-08-04 17:38:22,806 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad request version ('\x9d¿d\x00*')
+2025-08-04 17:38:22,806 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03^¥@Æï¼\x01®iÊ¦bØU÷\x93\x12\x1b\x9aE2Ôò¨ä\x0bvë§©ÀÚ \x90\x8eVÑÙx\x99]ù§xÊKáøS\x19Iæ²\x0c#ý\x03/Õ\x8ap\x1d\x9d¿d\x00*[0m" 400 -
+2025-08-04 17:38:22,809 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x90\x9d0\x0eÃZ~}\x9fw\x14\x8aurcÎ\x92óu\x0e\x9e·ÿ¯~\x06'½\x10ý^Ê")
+2025-08-04 17:38:22,809 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x90\x9d0\x0eÃZ~}\x9fw\x14\x8aurcÎ\x92óu\x0e\x9e·ÿ¯~\x06'½\x10ý^Ê \x83\x00U\x84\x8e[0m" 400 -
+2025-08-04 17:38:22,813 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:22] code 400, message Bad request version ('qÚ±ò\x82\x00\x00\x14À')
+2025-08-04 17:38:22,813 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:22] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01SÐÔ\x92\x8f4¼\x1fò\x1c\x0e5Ô9\x01°&Ù\x1d\x9c\x8c\x1cv\x0bÅ\x02 qÚ±ò\x82\x00\x00\x14À[0m" 400 -
+2025-08-04 17:38:27,875 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad request version ("ù+§>l\x18¼«&\x05o«?bÑþ\x94ÄØT\x03ó\x12}\x04Ð\x07A8'~;\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+2025-08-04 17:38:27,875 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03e\x08\x8fÃryãHèaâj \x04ÝÌé\x93õG$N6\x96\x01\x19²\x17\x17\x97\x8dÂ ù+§>l\x18¼«&\x05o«?bÑþ\x94ÄØT\x03ó\x12}\x04Ð\x07A8'~;\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:27,878 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad request version ('4\x9dÔ¨ª\x7f«ò\x9aÚ\x00,ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:27,878 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03xà\x14\x11-±¥$íl\x17µÛ\x1b>\x06ÅH³ÜM6®L;\x8aj²¶Vèj ®\x9eR½È£G\x96Ð1<4º!Ù#ø3áìM\x1d4\x9dÔ¨ª\x7f«ò\x9aÚ\x00,ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:27,881 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01\x1a`')
+2025-08-04 17:38:27,881 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01\x1a`\x1dYwÜm\x8cò×\x8b°t|b^¦-6f4S½Ø|ýk4ç­3ñ\x00\x00\x14À[0m" 400 -
+2025-08-04 17:38:27,992 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad request version ('¤5\x9evgê¹é=\x87\x8ebìbþJ\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:27,992 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0cÕÔ_\x8a\x03\x000ç?}\x17WÓ'°±ëØï¨\x81\\ÖöñP*\x99fD\x92 \x9bí¾øz_töÓøNSù\x14ø ¤5\x9evgê¹é=\x87\x8ebìbþJ\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:27,995 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad request version ('Ù|eÌ~fáum\x9c\x12Ä½·KyL\x9b\x84\x00,ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-08-04 17:38:27,995 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x032+"W»~þró\x8aª¯MÜÜWò_\x1fÚlDÅ\x99\x98Å\x14gð,f@ æ*´)=\x025\x13bNû\\ Ù|eÌ~fáum\x9c\x12Ä½·KyL\x9b\x84\x00,ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-08-04 17:38:27,998 ERROR: 127.0.0.1 - - [04/Aug/2025 17:38:27] code 400, message Bad request syntax ('\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01¢@úe8\x10gv~\x83rÇÙ£Ü¶íÝ/\x9fÍ¢\x90]F×\x989\x11Ýöô\x00\x00\x14À')
+2025-08-04 17:38:27,998 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:27] "[31m[1m\x16\x03\x01\x00\x8f\x01\x00\x00\x8b\x03\x01¢@úe8\x10gv~\x83rÇÙ£Ü¶íÝ/\x9fÍ¢\x90]F×\x989\x11Ýöô\x00\x00\x14À[0m" 400 -
+2025-08-04 17:38:46,842 INFO: 127.0.0.1 - - [04/Aug/2025 17:38:46] "GET / HTTP/1.1" 200 -
+2025-08-04 17:39:35,147 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:35] "GET / HTTP/1.1" 200 -
+2025-08-04 17:39:35,167 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-04 17:39:35,168 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=p2Euyt8O5Po7FHXMwEpi HTTP/1.1[0m" 304 -
+2025-08-04 17:39:35,168 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-04 17:39:35,169 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-04 17:39:45,600 INFO: 127.0.0.1 - - [04/Aug/2025 17:39:45] "GET / HTTP/1.1" 200 -
+2025-08-04 17:41:07,753 INFO: Feedback received from 127.0.0.1 | Name: Yash | Feedback: hellooooo there
+2025-08-04 17:41:07,754 INFO: 127.0.0.1 - - [04/Aug/2025 17:41:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-04 17:41:07,762 INFO: 127.0.0.1 - - [04/Aug/2025 17:41:07] "GET / HTTP/1.1" 200 -
+2025-08-04 17:59:14,581 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:59:14,622 INFO:  * Restarting with stat
+2025-08-04 17:59:14,685 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:59:14,727 INFO:  * Restarting with stat
+2025-08-04 17:59:14,965 WARNING:  * Debugger is active!
+2025-08-04 17:59:14,965 WARNING:  * Debugger is active!
+2025-08-04 17:59:14,977 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:59:14,977 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 17:59:15,072 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 17:59:15,117 INFO:  * Restarting with stat
+2025-08-04 17:59:15,333 WARNING:  * Debugger is active!
+2025-08-04 17:59:15,342 INFO:  * Debugger PIN: 507-966-520
+2025-08-04 18:01:24,136 INFO: 127.0.0.1 - - [04/Aug/2025 18:01:24] "GET / HTTP/1.1" 200 -
+2025-08-04 18:04:07,961 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 18:04:07,961 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 18:04:08,021 INFO:  * Restarting with stat
+2025-08-04 18:04:08,023 INFO:  * Restarting with stat
+2025-08-04 18:04:08,268 INFO:  * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-04 18:04:08,309 INFO:  * Restarting with stat
+2025-08-04 18:07:51,940 INFO:  * Restarting with stat
+2025-08-04 18:07:51,987 INFO:  * Restarting with stat
+2025-08-04 18:07:52,065 INFO:  * Restarting with stat
+2025-08-04 18:19:09,258 INFO:  * Restarting with stat
+2025-08-04 18:19:09,259 INFO:  * Restarting with stat
+2025-08-04 18:19:09,259 INFO:  * Restarting with stat
+2025-08-04 18:19:10,865 INFO:  * Restarting with stat
+2025-08-04 18:19:10,865 INFO:  * Restarting with stat
+2025-08-04 18:19:10,872 INFO:  * Restarting with stat
+2025-08-04 18:27:13,442 INFO:  * Restarting with stat
+2025-08-04 18:27:13,648 INFO:  * Restarting with stat
+2025-08-04 18:27:13,648 INFO:  * Restarting with stat
+2025-08-04 19:14:58,319 INFO:  * Restarting with stat
+2025-08-04 19:14:59,136 INFO:  * Restarting with stat
+2025-08-04 19:14:59,137 INFO:  * Restarting with stat
