@@ -1,0 +1,26 @@
+2025-08-05 16:19:07,882:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 16:19:07,883:INFO:[33mPress CTRL+C to quit[0m
+2025-08-05 16:19:07,883:INFO: * Restarting with stat
+2025-08-05 16:19:08,096:WARNING: * Debugger is active!
+2025-08-05 16:19:08,107:INFO: * Debugger PIN: 507-966-520
+2025-08-05 16:19:38,825:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 16:19:38,825:INFO:[33mPress CTRL+C to quit[0m
+2025-08-05 16:19:38,826:INFO: * Restarting with stat
+2025-08-05 16:19:39,031:WARNING: * Debugger is active!
+2025-08-05 16:19:39,040:INFO: * Debugger PIN: 507-966-520
+2025-08-05 16:21:22,087:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 16:21:22,088:INFO:[33mPress CTRL+C to quit[0m
+2025-08-05 16:21:22,089:INFO: * Restarting with stat
+2025-08-05 16:21:22,296:WARNING: * Debugger is active!
+2025-08-05 16:21:22,305:INFO: * Debugger PIN: 507-966-520
+2025-08-05 16:21:53,460:INFO:127.0.0.1 - - [05/Aug/2025 16:21:53] "GET / HTTP/1.1" 200 -
+2025-08-05 16:22:18,395:INFO:127.0.0.1 - - [05/Aug/2025 16:22:18] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-08-05 16:26:08,486:INFO: * Detected change in '/Users/apple/Desktop/feedback-app/app.py', reloading
+2025-08-05 16:26:08,524:INFO: * Restarting with stat
+2025-08-05 16:31:16,516:INFO: * Restarting with stat
+2025-08-05 17:44:10,051:INFO: * Restarting with stat
+2025-08-05 17:44:20,648:INFO: * Restarting with stat
+2025-08-05 17:48:33,978:INFO: * Restarting with stat

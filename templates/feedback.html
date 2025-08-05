@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Feedback Form</title>
   <style>
     body {
@@ -42,7 +43,7 @@
       box-sizing: border-box;
     }
 
-    button {
+    button[type="submit"] {
       margin-top: 20px;
       padding: 12px 20px;
       width: 100%;
@@ -54,11 +55,11 @@
       font-size: 16px;
     }
 
-    button:hover {
+    button[type="submit"]:hover {
       background-color: #0056b3;
     }
 
-    /* Dark mode styles */
+    /* Dark mode */
     body.dark-mode {
       background-color: #1e1e1e;
       color: #f0f0f0;
@@ -76,7 +77,7 @@
       border-color: #666;
     }
 
-    body.dark-mode button {
+    body.dark-mode button[type="submit"] {
       background-color: #555;
       color: #fff;
     }
@@ -96,6 +97,28 @@
       background-color: #444;
       color: white;
     }
+
+    /* Flash message styles */
+    .flash-wrapper {
+      margin-top: 18px;
+    }
+
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+      padding: 12px 14px;
+      border: 1px solid #c3e6cb;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 12px 14px;
+      border: 1px solid #f5c6cb;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
@@ -103,30 +126,30 @@
 
   <div class="container">
     <h1>Submit Feedback</h1>
-    <form method="POST">
+
+    <!-- FORM -->
+    <form method="POST" action="{{ url_for('feedback') }}">
       <label for="name">Name:</label>
-      <input type="text" name="name" required>
+      <input type="text" name="name" id="name" required>
 
       <label for="email">Email:</label>
-      <input type="email" name="email" required>
+      <input type="email" name="email" id="email" required>
 
       <label for="feedback">Feedback:</label>
-      <textarea name="feedback" rows="5" required></textarea>
+      <textarea name="feedback" id="feedback" rows="5" required></textarea>
 
       <button type="submit">Submit</button>
     </form>
-
-    {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-        <ul>
-          {% for category, message in messages %}
-            <li class="{{ category }}">{{ message }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endwith %}
-  </div>
-
+<!-- FLASH MESSAGE -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="flash-wrapper">
+      {% for category, message in messages %}
+        <div class="{{ category }}">{{ message }}</div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
   <script>
     function toggleMode() {
       document.body.classList.toggle('dark-mode');
@@ -134,3 +157,5 @@
   </script>
 </body>
 </html>
+
+
