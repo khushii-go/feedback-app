@@ -1,35 +1,27 @@
-import os
-from flask import Flask, render_template, request, redirect, flash
+from flask import Flask, render_template, request, redirect
 import csv
 import os
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # Needed for flashing messages
 
-CSV_FILE = 'feedback.csv'
 
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        name = request.form.get('name')
-        email = request.form.get('email')
-        feedback = request.form.get('feedback')
+def write_to_csv(data):
+    with open('feedback.csv', mode='a', newline='') as database:
+        name = data["name"]
+        email = data["email"]
+        feedback = data["feedback"]
+        csv_writer = csv.writer(database, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        csv_writer.writerow([name, email, feedback])
 
-        if name and email and feedback:
-            file_exists = os.path.isfile(CSV_FILE)
-            with open(CSV_FILE, 'a', newline='') as file:
-                writer = csv.writer(file)
-                if not file_exists:
-                    writer.writerow(['Name', 'Email', 'Feedback'])
-                writer.writerow([name, email, feedback])
 
-            flash("Thank you for your feedback!", "success")
-            return redirect('/')
-
+@app.route('/')
+def feedback_form():
     return render_template('feedback.html')
 
-if __name__ == '__main__':
-    debug_mode = os.getenv('FLASK_DEBUG', 'False') == 'True'
-    port = 6060
-    print(f" * Running on http://localhost:{port}/")
-    app.run(debug=debug_mode, port=port)
+
+@app.route('/submit_feedback', methods=['POST'])
+def submit_feedback():
+    if request.method == 'POST':
+        data = request.form.to_dict()
+        write_to_csv(data)
+        return redirect('/')
