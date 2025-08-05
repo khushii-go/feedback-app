@@ -1,13 +1,13 @@
 from flask import Flask, render_template, request, redirect, flash, url_for
 import csv
 import os
-import logging
+import logging  # <-- add this
 
 app = Flask(__name__)
 app.secret_key = "dev_secret_change_this"
 
-# Configure logging to console (Render shows this in the "Logs" tab)
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Configure logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 CSV_FILE = "feedback.csv"
 
@@ -24,9 +24,6 @@ def feedback():
         email = request.form.get("email", "").strip()
         feedback_text = request.form.get("feedback", "").strip()
 
-        # Log the feedback to console (will be visible in Render logs)
-        logging.info(f"Feedback submitted: Name={name}, Email={email}, Feedback={feedback_text}")
-
         # Validate form fields
         if not name or not email or not feedback_text:
             flash("Please fill in all fields.", "error")
@@ -38,9 +35,12 @@ def feedback():
                 writer = csv.writer(f)
                 writer.writerow([name, email, feedback_text])
         except Exception as e:
-            logging.error(f"Error writing to CSV: {e}")
+            app.logger.error(f"Error writing to CSV: {e}")
             flash("There was a problem saving your feedback. Please try again.", "error")
             return redirect(url_for("feedback"))
+
+        # Log feedback to Render logs
+        app.logger.info(f"Feedback submitted: Name={name}, Email={email}, Feedback={feedback_text}")
 
         # Flash success message
         flash("Thank you for your feedback!", "success")
@@ -49,5 +49,6 @@ def feedback():
     return render_template("feedback.html")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5004, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)
+
 
