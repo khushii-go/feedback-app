@@ -1,9 +1,8 @@
-import pytest
 from app import app
 
 
 def test_homepage():
-    tester = app.test_client()
-    response = tester.get('/')
+    response = app.test_client().get('/')
     assert response.status_code == 200
-    assert b'<form' in response.data
+    assert b'Feedback Form' in response.data
+

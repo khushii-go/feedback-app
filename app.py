@@ -1,27 +1,35 @@
 from flask import Flask, render_template, request, redirect
 import csv
-import os
+import logging
 
 app = Flask(__name__)
 
-
-def write_to_csv(data):
-    with open('feedback.csv', mode='a', newline='') as database:
-        name = data["name"]
-        email = data["email"]
-        feedback = data["feedback"]
-        csv_writer = csv.writer(database, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow([name, email, feedback])
+logging.basicConfig(
+    filename='app.log',
+    level=logging.DEBUG,
+    format='%(asctime)s:%(levelname)s:%(message)s'
+)
 
 
 @app.route('/')
-def feedback_form():
+def index():
     return render_template('feedback.html')
 
 
-@app.route('/submit_feedback', methods=['POST'])
-def submit_feedback():
+@app.route('/submit', methods=['POST'])
+def submit():
     if request.method == 'POST':
-        data = request.form.to_dict()
-        write_to_csv(data)
+        name = request.form['name']
+        email = request.form['email']
+        feedback = request.form['feedback']
+
+        with open('feedback.csv', mode='a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow([name, email, feedback])
+            logging.info(f"Feedback submitted by: {name}, {email}")
+
         return redirect('/')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
